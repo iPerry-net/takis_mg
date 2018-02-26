@@ -1,0 +1,351 @@
+<!doctype html>
+<html>
+<head>
+
+	<meta charset="utf-8">
+	<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+	<meta name="keywords" content="responsive, grid, system, web design">
+
+	<meta http-equiv="cleartype" content="on">
+
+	<link rel="shortcut icon" href="/favicon.ico">
+
+	<!-- Responsive and mobile friendly stuff -->
+	<meta name="HandheldFriendly" content="True">
+	<meta name="MobileOptimized" content="320">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- Stylesheets -->
+	<link rel="stylesheet" href="css/html5reset.css" media="all">
+	<link rel="stylesheet" href="css/responsivegridsystem.css" media="all">
+	<link rel="stylesheet" href="css/col.css" media="all">
+	<link rel="stylesheet" href="css/2cols.css" media="all">
+	<link rel="stylesheet" href="css/3cols.css" media="all">
+	<link rel="stylesheet" href="css/4cols.css" media="all">
+	<link rel="stylesheet" href="css/5cols.css" media="all">
+	<link rel="stylesheet" href="css/6cols.css" media="all">
+	<link rel="stylesheet" href="css/7cols.css" media="all">
+	<link rel="stylesheet" href="css/8cols.css" media="all">
+	<link rel="stylesheet" href="css/9cols.css" media="all">
+	<link rel="stylesheet" href="css/10cols.css" media="all">
+	<link rel="stylesheet" href="css/11cols.css" media="all">
+	<link rel="stylesheet" href="css/12cols.css" media="all">
+    <link rel="stylesheet" href="border_mBGZgy/css/style.css" media="all">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="http://colorschemedesigner.com/csd-3.5/css/default.css" type="text/css">
+    <link rel="stylesheet" href="http://colorschemedesigner.com/csd-3.5/kxs/kxs.css" type="text/css">
+    
+    
+	<!-- Responsive Stylesheets -->
+	<link rel="stylesheet" media="only screen and (max-width: 1024px) and (min-width: 769px)" href="/css/1024.css">
+	<link rel="stylesheet" media="only screen and (max-width: 768px) and (min-width: 481px)" href="/css/768.css">
+	<link rel="stylesheet" media="only screen and (max-width: 480px)" href="/css/480.css">
+    <!-- <link rel="stylesheet" type="text/css" href="css/style.css"> -->
+    <style type="text/css">
+        
+        html, body { 
+            height: 100%;
+            padding: 0;
+        }
+
+        #content 
+        {
+            background: url("images/common/vkey.svg") repeat-y;
+            height: 12px;
+            min-height: 100%;
+        }
+
+        #content .wrapper
+        {
+            background: url("images/common/vkey.svg") repeat-y;
+            height: 12px;
+            min-height: 100%;
+        }
+        
+        #content_wide_top .wrapper_wide_top
+        {
+            background: url("images/common/hkey.svg") top right repeat-x;
+            height: 18px;
+        }
+
+        #content_wide_bottom .wrapper_wide_bottom
+        {
+            background: url("images/common/hkey.svg") top right repeat-x;
+            height: 18px;
+        }
+
+        .svg
+        {
+            height: 18px;
+        }
+        
+        .aright{
+            text-align: right;
+        }
+        
+        .aleft{
+            text-align: left;
+        }
+        
+        .img270 {
+                -moz-transform: rotate(270deg);
+                -o-transform: rotate(270deg);
+                -webkit-transform: rotate(270deg);
+                transform: rotate(270deg);
+        }
+
+        .img90 {
+                -moz-transform: rotate(90deg);
+                -o-transform: rotate(90deg);
+                -webkit-transform: rotate(90deg);
+                transform: rotate(90deg);
+        }
+
+        .img180 {
+                -moz-transform: rotate(180deg);
+                -o-transform: rotate(180deg);
+                -webkit-transform: rotate(180deg);
+                transform: rotate(180deg);
+        }
+
+        .span_1_of_12 {
+            margin: 0;
+            padding: 0;
+        }
+
+        .span_10_of_12 {
+            margin: 0;
+            padding: 0;
+        }
+
+        #edgebg {
+            background-image: url(images/common/edgekey.svg);
+            text-align: left; /* reset correct text alignment */;
+            width: 18px;
+            y-index: 18px;
+        }
+        
+        .innertext {
+            padding: 25px;
+        }
+
+        .tight_bottom {
+            margin-bottom: 0;
+            padding-bottom: 0;
+        }
+        
+         .fling-minislide {width:350px; height:300px; overflow:hidden; position:relative; }
+        
+        .fling-minislide img{ position:absolute; animation:fling-minislide 20s infinite; opacity:0;}
+
+        @keyframes fling-minislide {25%{opacity:1;} 40%{opacity:0;}} 
+        .fling-minislide img:nth-child(4){animation-delay:0s;}
+        .fling-minislide img:nth-child(3){animation-delay:5s;}
+        .fling-minislide img:nth-child(2){animation-delay:10s;}
+        .fling-minislide img:nth-child(1){animation-delay:15s;}
+
+        #csd3-preview-palette-mine .text .row1 { color: white }
+        #csd3-preview-palette-mine .text .row2 { color: gray }
+        #csd3-preview-palette-mine .text .row3 { color: black }
+
+    </style>
+
+	<!-- All JavaScript at the bottom, except for Modernizr which enables HTML5 elements and feature detects -->
+	<script src="js/modernizr-2.5.3-min.js"></script>
+
+</head>
+    
+<body style="background-color: white; font-size: 1em;">
+
+<div class="tmg_div">
+    <img class="tmg_logo_smaller" src="images/common/tmg_logo_smaller-v2.svg" />
+</div>
+
+<div class="newspaper_2n">
+    <div style="background-color: rgb(173, 164, 212);">rgb(173, 164, 212)</div>
+    <div style="background-color: rgb(159, 147, 212);">rgb(159, 147, 212)</div>
+    <div style="color: white; background-color: rgb(113, 100, 170);">rgb(113, 100, 170)</div>
+    <div style="color: white; background-color: rgb(95, 88, 128);">rgb(95, 88, 128)</div>
+    <div style="color: white; background-color: rgb(47, 33, 111);">rgb(47, 33, 111)</div>
+    <div style="background-color: rgb(251, 234, 162);">rgb(251, 234, 162)</div>
+    <div style="background-color: rgb(251, 238, 186);">rgb(251, 238, 186)</div>
+    <div style="background-color: rgb(246, 224, 131);">rgb(246, 224, 131)</div>
+    <div style="background-color: rgb(185, 172, 120);">rgb(185, 172, 120)</div>
+    <div style="color: white; background-color: rgb(160, 137, 42);">rgb(160, 137, 42)</div>
+</div>
+    
+<br><hr><br>
+    
+<div>
+<table id="csd3-preview-palette-mine">
+    <tbody>
+        <tr class="pri">
+            <td class="cbox bg-pri-3" rel="pri-3" style="background-color: rgb(237, 86, 90);">
+                <div class="text" style="line-height: 80%;">
+                    <p class="row1">rgb(237, 86, 90)</p>
+                    <p class="row2">#ED565A</p>
+                    <p class="row3">HSL(358°, 81%, 63%)</p>
+                </div>
+            </td>
+            <td class="cbox bg-pri-0" rel="pri-0" rowspan="2" style="background-color: rgb(218, 33, 38);">
+                <div class="text" style="line-height: 80%;">
+                    <p class="row1">rgb(218, 33, 38)</p>
+                    <p class="row2">rgb(218, 33, 38)</p>
+                    <p class="row3">rgb(218, 33, 38)</p>
+                </div>
+            </td>
+            <td class="cbox bg-pri-1" rel="pri-1" style="background-color: rgb(163, 59, 62);">
+                <div class="text" style="line-height: 80%;">
+                    <p class="row1">rgb(163, 59, 62)</p>
+                    <p class="row2">rgb(163, 59, 62)</p>
+                    <p class="row3">rgb(163, 59, 62)</p>
+                </div>
+            </td>
+        </tr>
+        <tr class="pri">
+            <td class="cbox bg-pri-4" rel="pri-4" style="background-color: rgb(237, 126, 129);">
+                <div class="text" style="line-height: 80%;">
+                    <p class="row1">rgb(237, 126, 129)</p>
+                    <p class="row2">rgb(237, 126, 129)</p>
+                    <p class="row3">rgb(237, 126, 129)</p>
+                </div>
+            </td>
+            <td class="cbox bg-pri-2" rel="pri-2" style="background-color: rgb(142, 11, 14);">
+                <div class="text" style="line-height: 80%;">
+                    <p class="row1">rgb(142, 11, 14)</p>
+                    <p class="row2">rgb(142, 11, 14)</p>
+                    <p class="row3">rgb(142, 11, 14)</p>
+                </div>
+            </td>
+        </tr>
+        <tr class="sec sec1">
+            <td class="cbox bg-sec1-1" rel="sec1-1" style="background-color: rgb(165, 143, 60);">
+                <div class="text" style="line-height: 80%;">
+                    <p class="row1">rgb(165, 143, 60)</p>
+                    <p class="row2">rgb(165, 143, 60)</p>
+                    <p class="row3">rgb(165, 143, 60)</p>
+                </div>
+            </td>
+            <td class="cbox bg-sec1-0" rel="sec1-0" rowspan="2" style="background-color: rgb(220, 181, 33);">
+                <div class="text" style="line-height: 80%;">
+                    <p class="row1">rgb(220, 181, 33)</p>
+                    <p class="row2">rgb(220, 181, 33)</p>
+                    <p class="row3">rgb(220, 181, 33)</p>
+                </div>
+            </td>
+            <td class="cbox bg-sec1-3" rel="sec1-3" style="background-color: rgb(237, 206, 86);">
+                <div class="text" style="line-height: 80%;">
+                    <p class="row1">rgb(237, 206, 86)</p>
+                    <p class="row2">rgb(237, 206, 86)</p>
+                    <p class="row3">rgb(237, 206, 86)</p>
+                </div>
+            </td>
+        </tr>
+        <tr class="sec sec1">
+            <td class="cbox bg-sec1-2" rel="sec1-2" style="background-color: rgb(143, 115, 11);">
+                <div class="text" style="line-height: 80%;">
+                    <p class="row1">rgb(143, 115, 11)</p>
+                    <p class="row2">rgb(143, 115, 11)</p>
+                    <p class="row3">rgb(143, 115, 11)</p>
+                </div>
+            </td>
+            <td class="cbox bg-sec1-4" rel="sec1-4" style="background-color: rgb(237, 214, 127);">
+                <div class="text" style="line-height: 80%;">
+                    <p class="row1">rgb(237, 214, 127)</p>
+                    <p class="row2">rgb(237, 214, 127)</p>
+                    <p class="row3">rgb(237, 214, 127)</p>
+                </div>
+            </td>
+        </tr>
+        <tr class="sec sec2">
+            <td class="cbox bg-sec2-1" rel="sec2-1" style="background-color: rgb(60, 51, 114);">
+                <div class="text" style="line-height: 80%;">
+                    <p class="row1">rgb(60, 51, 114)</p>
+                    <p class="row2">rgb(60, 51, 114)</p>
+                    <p class="row3">rgb(60, 51, 114)</p>
+                </div>
+            </td>
+            <td class="cbox bg-sec2-0" rel="sec2-0" rowspan="2" style="background-color: rgb(55, 40, 152);">
+                <div class="text" style="line-height: 80%;">
+                    <p class="row1">rgb(55, 40, 152)</p>
+                    <p class="row2">rgb(55, 40, 152)</p>
+                    <p class="row3">rgb(55, 40, 152)</p>
+                </div>
+            </td>
+            <td class="cbox bg-sec2-3" rel="sec2-3" style="background-color: rgb(106, 91, 204);">
+                <div class="text" style="line-height: 80%;">
+                    <p class="row1">rgb(106, 91, 204)</p>
+                    <p class="row2">rgb(106, 91, 204)</p>
+                    <p class="row3">rgb(106, 91, 204)</p>
+                </div>
+            </td>
+        </tr>
+        <tr class="sec sec2">
+            <td class="cbox bg-sec2-2" rel="sec2-2" style="background-color: rgb(25, 13, 99);">
+                <div class="text" style="line-height: 80%;">
+                    <p class="row1">rgb(25, 13, 99)</p>
+                    <p class="row2">rgb(25, 13, 99)</p>
+                    <p class="row3">rgb(25, 13, 99)</p>
+                </div>
+            </td>
+            <td class="cbox bg-sec2-4" rel="sec2-4" style="background-color: rgb(132, 121, 204);">
+                <div class="text" style="line-height: 80%;">
+                    <p class="row1">rgb(132, 121, 204)</p>
+                    <p class="row2">rgb(132, 121, 204)</p>
+                    <p class="row3">rgb(132, 121, 204)</p>
+                </div>
+            </td>
+        </tr>
+        <tr class="compl">
+            <td class="cbox bg-compl-1" rel="compl-1" style="background-color: rgb(53, 134, 49);">
+                <div class="text" style="line-height: 80%;">
+                    <p class="row1">rgb(53, 134, 49)</p>
+                    <p class="row2">rgb(53, 134, 49)</p>
+                    <p class="row3">rgb(53, 134, 49)</p>
+                </div>
+            </td>
+            <td class="cbox bg-compl-0" rel="compl-0" rowspan="2" style="background-color: rgb(34, 178, 27);">
+                <div class="text" style="line-height: 80%;">
+                    <p class="row1">rgb(34, 178, 27)</p>
+                    <p class="row2">rgb(34, 178, 27)</p>
+                    <p class="row3">rgb(34, 178, 27)</p>
+                </div>
+            </td>
+            <td class="cbox bg-compl-3" rel="compl-3" style="background-color: rgb(86, 217, 79);">
+                <div class="text" style="line-height: 80%;">
+                    <p class="row1">rgb(86, 217, 79)</p>
+                    <p class="row2">rgb(86, 217, 79)</p>
+                    <p class="row3">rgb(86, 217, 79)</p>
+                </div>
+            </td>
+        </tr>
+        <tr class="compl">
+            <td class="cbox bg-compl-2" rel="compl-2" style="background-color: rgb(14, 116, 9);">
+                <div class="text" style="line-height: 80%;">
+                    <p class="row1">rgb(14, 116, 9)</p>
+                    <p class="row2">rgb(14, 116, 9)</p>
+                    <p class="row3">rgb(14, 116, 9)</p>
+                </div>
+            </td>
+            <td class="cbox bg-compl-4" rel="compl-4" style="background-color: rgb(121, 217, 115);">
+                <div class="text" style="line-height: 80%;">
+                    <p class="row1">rgb(121, 217, 115)</p>
+                    <p class="row2">rgb(121, 217, 115)</p>
+                    <p class="row3">rgb(121, 217, 115)</p>
+                </div>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+</div>
+    
+<div class="leaves">
+    <img src="images/play/svg-leaves.svg" />
+</div>
+
+    
+</body>
+</html>

@@ -1,0 +1,134 @@
+body {
+	font-family: Verdana, Geneva, Arial, helvetica, sans-serif;
+	background-color: #003399;
+	background-image: url(/images/site/body_bg.png);
+	background-repeat: repeat-x;
+	margin: 0px;
+	padding: 0px;
+
+}
+
+p {
+	margin: 0px;
+	font-size: 10px;
+}
+
+h1 {
+	margin: 0px;
+	font-size: x-large;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-variant: normal;
+	color: #003399;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+td {
+	font-family: Verdana, Geneva, Arial, helvetica, sans-serif;
+}
+
+th {
+	font-family: Verdana, Geneva, Arial, helvetica, sans-serif;
+}
+
+#container {
+	width:702px;
+	margin-right:auto;
+	margin-left:auto;
+	text-align:center;
+	margin-bottom: 0px;
+	height: auto;
+	padding: 0px;
+
+}
+#main_bodybg {
+	background-color: #FFFFFF;
+	width: 695px;
+	border-right-color: #003399;
+	border-left-color: #003399;
+	border-right-width: 1px;
+	border-left-width: 1px;
+	text-align:left;
+	border-top-style: none;
+	border-right-style: solid;
+	border-bottom-style: none;
+	border-left-style: solid;
+	position: relative;
+	height: auto;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 5px;
+}
+
+
+#player {
+	position: relative;
+	height: 172px;
+	width: auto;
+	z-index: 4;
+	float: right;
+	visibility: visible;
+	text-align: right;
+	display: block;
+	top: 0px;
+	clear: right;
+	right: -17px;
+}
+
+.footer {
+	font-size: 10px;
+	text-align: center;
+	padding-bottom: 5px;
+}
+
+.headerspace {
+	font-size: 10px;
+	color: #FFFFFF;
+}
+
+a.header:link {
+	color: #FFFFFF;
+	font-size: 10px;
+	font-weight: bold;
+	word-spacing: 2px;
+	letter-spacing: 3px;
+	text-decoration: none;
+}
+a.header:visited {
+	color: #FFFFFF;
+	font-size: 10px;
+	font-weight: bold;
+	word-spacing: 2px;
+	letter-spacing: 3px;
+	text-decoration: none;
+}
+a.header:hover {
+	color: #FFFFFF;
+	font-size: 10px;
+	font-weight: bold;
+	word-spacing: 2px;
+	letter-spacing: 3px;
+	text-decoration: underline;
+}
+a.header:active {
+	color: #FFFFFF;
+	font-size: 10px;
+	font-weight: bold;
+	word-spacing: 2px;
+	letter-spacing: 3px;
+	text-decoration: none;
+}
+h2 {
+	margin: 0px;
+	font-size: large;
+	font-weight: bold;
+	text-transform: capitalize;
+	font-variant: normal;
+	color: #003399;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+li {
+	font-size: 10px;
+	line-height: 13px;
+}

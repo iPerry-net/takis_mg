@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="bad_gateway.html" server="199.231.93.236" local="131322872559284023" remote="130979685600000000" Dst="1" />
+<file name="bad_request.html" server="199.231.93.236" local="131322872559955412" remote="130979685600000000" Dst="1" />
+<file name="forbidden.html" server="199.231.93.236" local="131322872563806155" remote="130979685600000000" Dst="1" />
+<file name="maintenance.html" server="199.231.93.236" local="131322872566345381" remote="130979685600000000" Dst="1" />
+<file name="internal_server_error.html" server="199.231.93.236" local="131322872566658017" remote="130979685600000000" Dst="1" />
+<file name="method_not_allowed.html" server="199.231.93.236" local="131322872570124328" remote="130979685600000000" Dst="1" />
+<file name="not_acceptable.html" server="199.231.93.236" local="131322872571348752" remote="130979685600000000" Dst="1" />
+<file name="not_found.html" server="199.231.93.236" local="131322872571817645" remote="130979685600000000" Dst="1" />
+<file name="not_implemented.html" server="199.231.93.236" local="131322872576348112" remote="130979685600000000" Dst="1" />
+<file name="precondition_failed.html" server="199.231.93.236" local="131322872578525221" remote="130979685600000000" Dst="1" />
+<file name="proxy_authentication_required.html" server="199.231.93.236" local="131322872578993994" remote="130979685600000000" Dst="1" />
+<file name="request-uri_too_long.html" server="199.231.93.236" local="131322872581846268" remote="130979685600000000" Dst="1" />
+<file name="unauthorized.html" server="199.231.93.236" local="131322872584856436" remote="130979685600000000" Dst="1" />
+<file name="unsupported_media_type.html" server="199.231.93.236" local="131322872585011912" remote="130979685600000000" Dst="1" />
+</dwsync>

@@ -1,0 +1,10 @@
+#borderImageRepetition {
+/*
+  width: 260px;
+  height: 80px;
+  margin-bottom: 18px;
+*/
+  border: 1em solid;
+  border-image: url("../../images/common/fullkeyborder.svg") 100;
+  border-image-repeat: repeat;
+}

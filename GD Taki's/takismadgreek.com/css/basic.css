@@ -1,0 +1,68 @@
+﻿body
+	{ font-size: 12px; font-family: "trebuchet ms"; background-color: #fff78f; padding: 0; /* remove gaps in Opera */
+	text-align: center; /* center content in IE/Win */
+	min-width: 687px; margin-top: 8px; margin-bottom: 0; }
+	
+#mainbg {
+	background-color: #fff;
+	background-image: url(../images/mainbody_bg_red.png);
+	margin: 0 auto;
+/* center (compliant browsers) */	text-align: left; /* reset correct text alignment */;
+	width: 687px;
+	width: 842px;
+	height: inherit;
+	z-index: -100;
+}
+#main
+{ position: relative; top: 8px; width: 562px; z-index: 0; margin-left: 120px; }
+#copyright
+{ width: 100%; visibility: visible; z-index: 0; }
+p {}
+
+td {}
+
+a:link { color: #369 ; }
+
+a:visited { color: #369 }
+
+a:hover { color: #369 ; background-color: #ffc; }
+
+a:active { color: #000 ; text-decoration: none; }
+.Txtsm { font-size: 8pt; }
+.Txtfooter { font-size: 12px; }
+.txtAAA { font-size: 11px;}
+.TxtBoldHeader { color: #000; font-size: 11px; font-weight: bold; text-transform: uppercase; letter-spacing: 2px; }
+#centercontent{ position: relative; left: 117px; width:450px; float: left; padding-right: 5px; padding-bottom: 20px; padding-left: 3px; border-right: 1px dashed #369; }
+.TxtHeader { color: #006eaa; font-size: 16px; font-weight: bold; }
+.headTag 
+{ color: #fff; font-size: 14px; font-weight: bold; background-color: #368bbe; text-align: center; width: auto; height: 15px; padding-top: 2px; padding-bottom: 2px; border-top: 1px solid #006eaa; border-bottom: 1px solid #006eaa; }#mainbg div table tr td p strong {
+
+}
+.HeaderLinks {
+	font-size: medium;
+	text-align: center;
+}
+.body {
+	text-align: left;
+	font-family: "Trebuchet MS";
+	font-size: medium;
+}
+.review {
+	margin: 6px 2px 12px 2px;
+	text-align: left;
+	font-family: "Trebuchet MS";
+	font-size: medium;
+	bottom: 1px;
+}
+.sig {
+	padding: inherit;
+	margin: 0px 2px 4px 2px;
+	text-align: right;
+	font-family: "Trebuchet MS";
+	font-size: medium;
+	font-style: italic;
+}
+.flyer {
+	margin-left: auto;
+	margin-right: auto;
+}

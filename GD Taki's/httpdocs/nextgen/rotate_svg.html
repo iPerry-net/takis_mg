@@ -1,0 +1,932 @@
+<!doctype html>
+<html>
+<head>
+
+<script>
+    
+    $(function(){
+            "use strict";
+      $( "#headerWrap" ).append($("<button>toggle border-images</button>").attr('id','btnToggle').addClass('btn') );
+    }); 
+    $(function(){ 
+            "use strict";
+      $('#btnToggle').click(function () {
+        $('#wrapper').each(function(){
+          var classes = ['dv-01','dv-02','dv-03','dv-04','dv-05','dv-06','dv-07','dv-08'];
+
+          this.className = classes[($.inArray(this.className, classes)+1)%classes.length];
+        }); 
+      }); 
+    });      
+    
+</script>    
+    
+    <!-- <link rel="stylesheet" type="text/css" href="css/style.css"> -->
+    <style type="text/css">
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* outline: 1px dotted salmon */
+}
+/*
+Name: Atelier Lakeside
+Author: Bram de Haan (https://atelierbram.github.io/syntax-highlighting/atelier-schemes/lakeside/)
+
+Sass-variables template by Bram de Haan (https://github.com/atelierbram/c-tiles16)
+Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16)
+*/
+
+$base00: hsl(200, 15%, 10%);  /* #161b1d; */
+$base01: hsl(200, 20%, 15%);  /* #1f292e; */
+$base02: hsl(200, 21%, 40%);  /* #516d7b; */
+$base03: hsl(200, 22%, 45%);  /* #5a7b8c; */
+$base04: hsl(200, 24%, 55%);  /* #7195a8; */
+$base05: hsl(200, 26%, 60%);  /* #7ea2b4; */
+$base06: hsl(200, 75%, 86%);  /* #c1e4f6; */
+$base07: hsl(200, 100%, 96%); /* #ebf8ff; */
+$base08: hsl(335, 65%, 50%);  /* #d22d72; */
+$base09: hsl(30, 60%, 36%);   /* #935c25; */
+$base0a: hsl(60, 80%, 30%);   /* #8a8a0f; */
+$base0b: hsl(100, 41%, 39%);  /* #568c3b; */
+$base0c: hsl(160, 52%, 37%);  /* #2d8f6f; */
+$base0d: hsl(200, 65%, 41%);  /* #257fad; */
+$base0e: hsl(240, 35%, 53%);  /* #5d5db1; */
+$base0f: hsl(290, 65%, 50%);  /* #b72dd2; */
+
+$base16-red:     $base08;
+$base16-orange:  $base09;
+$base16-yellow:  $base0a;
+$base16-green:   $base0b;
+$base16-cyan:    $base0c;
+$base16-blue:    $base0d;
+$base16-violet:  $base0e;
+$base16-magenta: $base0f;
+
+$red:     $base08;
+$orange:  $base09;
+$yellow:  $base0a;
+$green:   $base0b;
+$cyan:    $base0c;
+$blue:    $base0d;
+$violet:  $base0e;
+$magenta: $base0f;
+
+/*
+
+Prism template by Bram de Haan (https://atelierbram.github.io/syntax-highlighting/prism/)
+Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16)
+*/
+code[class*="language-"],
+pre[class*="language-"] {
+  // @extend %monospace !optional;
+  // font-size: 14px;
+  // line-height: 1.375;
+  // direction: ltr;
+  // text-align: left;
+  // word-spacing: normal;
+  //
+  // -moz-tab-size: 4;
+  // -o-tab-size: 4;
+  // tab-size: 4;
+  //
+  // -webkit-hyphens: none;
+  // -moz-hyphens: none;
+  // -ms-hyphens: none;
+  // hyphens: none;
+  // white-space: pre;
+  // white-space: pre-wrap;
+  // word-break: break-all;
+  // word-wrap: break-word;
+  // background: $base07;
+  // color: $base02;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+  // padding: 1em;
+  // margin: .5em 0;
+  // overflow: auto;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+  padding: .1em;
+  border-radius: .3em;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+  color: $base05;
+}
+
+.token.punctuation {
+  color: $base02;
+}
+
+.namespace {
+  opacity: .7;
+}
+
+.token.null,
+.token.operator,
+.token.boolean,
+.token.number {
+  color: $base09;
+}
+.token.property {
+  color: $base16-yellow;
+}
+.token.tag {
+  color: $base16-blue;
+}
+.token.string {
+  color: $base16-cyan;
+}
+.token.selector {
+  color: $base16-violet;
+}
+.token.attr-name {
+  color: $base09;
+}
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string {
+  color: $base16-cyan;
+}
+
+.token.attr-value,
+.token.keyword,
+.token.control,
+.token.directive,
+.token.unit {
+  color: $base16-green;
+}
+
+.token.statement,
+.token.regex,
+.token.atrule {
+  color: $base16-cyan;
+}
+
+.token.placeholder,
+.token.variable {
+  color: $base16-blue;
+}
+
+.token.important {
+  color: $base16-red;
+  font-weight: bold;
+}
+
+.token.entity {
+  cursor: help;
+}
+
+pre > code.highlight {
+  outline: .4em solid $base16-red;
+  outline-offset: .4em;
+}
+
+button {
+  &:invalid {
+    box-shadow: none;
+  }
+  &:focus {
+    box-shadow: 0 0 5px 0 adjust-color($blue,$lightness: 5%,$saturation: 5%);
+    z-index: 1;
+  }
+}
+
+button {
+  -webkit-appearance: none;
+  border-radius: 4px;
+  background-clip: padding-box;
+  border: 1px solid;
+  border-color: adjust-color($base05,$lightness: 5%) $base05 $base04;
+  cursor: pointer;
+  color: #333;
+  display: inline-block;
+  outline: 0;
+  overflow: visible;
+  margin: 2.5em 0 0;
+  padding: 1em 2em;
+  text-shadow: white 0 1px 1px;
+  text-decoration: none;
+  vertical-align: top;
+  width: auto;
+  font-size: 18px;
+
+  background-color: $base07;
+
+  background-image: linear-gradient(#fff,$base07 1px,$base06);
+
+
+  &:hover {
+  background-image: linear-gradient(#fff,$base07 1px,adjust-color($base06,$lightness: -5%));
+    text-decoration: none;
+  }
+
+  &:active {
+  background-image: linear-gradient($base06,$base07);
+    box-shadow: inset 0 1px 2px 0 rgba(0,0,0,0.25);
+    border-color: #999 #bbb #ddd;
+  border-color: $base04 $base05 adjust-color($base05,$lightness: 5%);
+  }
+
+  &::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+  }
+
+  @media (min-width:960px){
+      float: right;
+      margin: 7em 2.5% 0 0;
+  }
+}
+// @import "reset.scss";
+// @import "vars.scss";
+// @import "modules/prism-light";
+// @import "modules/button";
+
+$red-warmer: adjust-color($red,$hue: 25%,$saturation: 35%,$lightness: 10%);
+$grey: grey;
+html {
+  // force a vertical scrollbar
+  // padding-bottom: 1px;
+  overflow-y: scroll;
+  font-size: 16px;
+}
+
+html {
+  // force a vertical scrollbar
+  // padding-bottom: 1px;
+  overflow-y: scroll;
+  font-size: 16px;
+}
+html,
+body {
+  height: 100%;
+}
+body,
+cite a {
+  font-family: "PT Sans Narrow", pt_sans_narrowregular, AvenirNextCondensed-Regular, AvenirNext-Regular, Avenir-Light, "Lucida Grande", Corbel, "Trebuchet Ms", sans-serif;
+}
+
+body {
+  font-size: 100%;
+  line-height: 1.375;
+  background-color: #fff;
+  color: #111;
+  text-align:center;
+  position: relative;
+}
+
+.header-wrap {
+  overflow: hidden;
+  padding: 1em;
+  border-bottom: 1em solid #fff;
+
+//  @media (min-width:600px){
+//    background-color: adjust-color($blue,$lightness: 30%);
+//  }
+}
+
+.header {
+  padding-bottom: 2em;
+  max-width: 34em;
+  @media (min-width:960px){
+    float: left;
+  }
+}
+h1 {
+  position: relative;
+  z-index: 2;
+  line-height: 1;
+  color: $violet;
+  text-shadow: -1px -1px 1px #fff,2px 2px 0 $base05;
+
+  @media (min-width:400px){
+    font-size: 4em;
+  }
+  @media (min-width:600px){
+    margin-bottom: -.75em;
+  }
+}
+.main {
+  margin-bottom: 4em;
+}
+svg,
+img {
+  max-width: 100%;
+}
+cite {
+  font-style: normal;
+}
+cite a {
+  font-style: italic;
+  color: $base06;
+}
+cite a:hover {
+  outline: 1px dotted hsla(0,0%,0%,.5);
+}
+h1,
+h2,
+.borderimage.svg .header p::after,
+.header code,
+.btn,
+em,
+blockquote cite b {
+  font-family: "PT Sans Narrow", pt_sans_narrowbold, AvenirNextCondensed-DemiBold, "Lucida Grande", Corbel, "Trebuchet Ms", sans-serif;
+  word-wrap: break-word;
+  /* font-weight: normal; */
+  font-style: normal;
+}
+.header p {
+  position: relative;
+  z-index: 1;
+  background-color: #fff;
+
+  @media (min-width:500px){
+    font-size: 1.25em;
+  }
+  @media (min-width:600px){
+    line-height: 2;
+    margin-top:-.25em;
+    padding-left: 3em; 
+    padding-right: 3em; 
+    border: 48px solid #fff;
+    border-radius: 50%;
+    box-shadow: 6px 20px 12px transparentize($blue, .65);
+  }
+}
+.header span {
+  display: inline-block;
+}
+.header code {
+  @media (max-width:599px){
+    width: 100%;
+    display: inline-block;
+  }
+}
+
+.borderimage.svg .header p::before {
+  @media (min-width:600px){
+    content: "";
+    position: absolute;
+    top:0;right:0;bottom:0;left:0;
+    border-radius: 50%;
+    height: 170px;
+    margin-top: -54px;
+    width: 75%;
+    margin-left: 12.5%;
+    background-color: #fff;
+    z-index: -2;
+  }
+}
+.borderimage.svg .header p::after {
+  @media (min-width:600px){
+    position: absolute;
+    right:0;bottom:0;left:0;
+    margin-bottom: -2.85em;
+    z-index: 3;
+    font-size: 1.125em;
+    color: $red;
+  }
+}
+.borderimage.svg .dv-01 .header p::after {
+  @media (min-width:600px){
+    content: "ZigZag";
+  }
+}
+.borderimage.svg .dv-02 .header p::after {
+  @media (min-width:600px){
+    content: "Wave";
+  }
+}
+.borderimage.svg .dv-03 .header p::after {
+  @media (min-width:600px){
+    content: "Trapeze";
+  }
+}
+.borderimage.svg .dv-04 .header p::after {
+  @media (min-width:600px){
+    content: "Asterisk";
+  }
+}
+.borderimage.svg .dv-05 .header p::after {
+  @media (min-width:600px){
+    content: "Diagonal Block";
+  }
+}
+.borderimage.svg .dv-06 .header p::after {
+  @media (min-width:600px){
+    content: "Straight Block";
+  }
+}
+        
+.borderimage.svg .dv-07 .header p::after {
+  @media (min-width:600px){
+    content: "Meander";
+  }
+
+}
+.borderimage.svg .dv-08 .header p::after {
+  @media (min-width:600px){
+    content: "Stamp";
+  }
+}
+.footer--page {
+  position: fixed;
+  bottom:0;left:0;right:0;
+  background-color: hsla(0,0%,0%,.5);
+  color: #fff;
+  color: hsla(0,0%,100%,.75);
+}
+.footer--page small {
+  font-size: 1em;
+  display: block;
+  text-shadow: 1px 1px 0 hsla(0,0%,0%,.75);
+}
+.footer--page a {
+  display: inline-block;
+  padding: 1em 0;
+  color: #fff;
+  color: hsla(0,0%,100%,.75);
+  text-decoration: none;
+}
+.footer--page a:focus,
+.footer--page a:hover,
+.footer--page a:active {
+  text-decoration: underline;
+}
+
+pre {
+  margin: 0;
+  font: .75em/1.25 Consolas, Menlo, Monaco, "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "Liberation Mono", "Nimbus Mono L", "Courier New", Courier, monospace;
+  white-space: pre-wrap;
+  color: #000;
+}
+
+a {
+  color: adjust-color($blue,$lightness: -30%);
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+h2 {
+  font-size: 2em;
+}
+h2,
+blockquote {
+  text-align: left;
+}
+
+.section--about {
+  text-align: left;
+  // background-color: adjust-color($orange,$lightness: 25%);
+}
+.section--about  p {
+  padding: .5em 0;
+
+  @media (min-width:400px){
+    font-size: 1.5em;
+    max-width: 26em;
+  }
+  @media (min-width:960px){
+    font-size: 3em;
+    margin: 0 2.5rem;
+  }
+}
+
+.section--about h2 {
+  @media (min-width:600px){
+    font-size: 4em;
+    margin: 0 2.5rem;
+  }
+}
+.section--about .divider {
+  @media (min-width:600px){
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  @media (min-width:700px){
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+  @media (min-width:800px){
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+}
+.blockquote blockquote {
+  max-width: 29em;
+}
+.section--about .blockquote {
+  padding-bottom: 4em;
+  background-color: $violet;
+  color: #fff;
+  color: hsla(0,0%,100%,.9);
+  text-shadow: 1px 1px 0 hsla(0,0%,0%,.75);
+  letter-spacing: 1px;
+
+  @media (min-width:600px){
+    font-size: 1.5em;
+  }
+}
+.disclaimer {
+  // background-color: hsla(0,0%,100%,.75) !important;
+}
+.disclaimer small {
+  background-color: mix($magenta,$violet,50%) !important;
+  font-size: 1.125em;
+  display: block;
+  max-width: 32em;
+}
+
+.main p code,
+.main small code {
+  font-size: .875em;
+  border-radius: 3px;
+  background-color: hsla(0,0%,100%,.25);
+  margin: 0 3px;
+  padding: 2px .5em 0;
+  border: 1px solid hsla(0,0%,0%,.25);
+  display: inline-block;
+}
+blockquote cite {
+  margin-top: 1em;
+  text-align: right;
+  display: block;
+  width: 100%;
+}
+blockquote cite a {
+  float: right;
+  clear: left;
+  width: 100%;
+  padding-right: .2em;
+}
+
+.fig {
+  margin: 2em auto 0;
+  background: hsla(0,0%,100%,.25) url(//atelierbram.github.io/frame-patterns/assets/svg/zigzag_96x96_border-image.svg) 0 0 no-repeat;
+  width: 96px;
+  height: 96px;
+}
+.dv-02 .fig {
+  background-image: url(//atelierbram.github.io/frame-patterns/assets/svg/wave_96x96_border-image.svg);
+  width: 96px;
+  height: 96px;
+}
+.dv-03 .fig {
+  background-image: url(//atelierbram.github.io/frame-patterns/assets/svg/trapeze_96x96_border-image.svg);
+  width: 96px;
+  height: 96px;
+}
+.dv-04 .fig {
+  background-image: url(//atelierbram.github.io/frame-patterns/assets/svg/asterisk_96x96_border-image.svg);
+  width: 96px;
+  height: 96px;
+}
+.dv-05 .fig {
+  background-image: url(//atelierbram.github.io/frame-patterns/assets/svg/diagonal-block_48x48_border-image.svg);
+  width: 48px;
+  height: 48px;
+}
+.dv-06 .fig {
+  background-image: url(//atelierbram.github.io/frame-patterns/assets/svg/blocks_48x48_border-image.svg);
+  width: 48px;
+  height: 48px;
+}
+.dv-07 .fig {
+  background-image: url(//atelierbram.github.io/frame-patterns/assets/svg/meander_152x152_border-image.svg);
+  width: 152px;
+  height: 152px;
+}
+.dv-08 .fig {
+  background-image: url(//atelierbram.github.io/frame-patterns/assets/svg/stamp_36x36_border-image.svg);
+  width: 36px;
+  height: 36px;
+}
+.no-svg .fig {
+  background: none;
+}
+// section dividers
+.divider {
+  padding: 2rem 1rem;
+}
+.dv-05 .divider,
+.dv-06 .divider {
+  padding: 3rem 2rem;
+}
+.dv-07 .divider {
+  padding: 1rem 0;
+}
+.dv-08 .divider {
+  padding: 3.25em 2.25em;
+}
+.borderimage.svg .divider {
+  border: 32px solid transparent;
+  border-image:url(//atelierbram.github.io/frame-patterns/assets/svg/zigzag_96x96_border-image.svg) 32 round round;
+}
+
+.flexbox .section {
+  margin: 0 1em;
+
+  @media (min-width: 1376px){
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+  }
+
+}
+// .no-flexbox .section--code .divider {
+.no-flexbox .section .divider {
+  min-height: 500px;
+}
+// .flexbox .section--code .divider {
+.flexbox .section .divider {
+  @media (min-width: 1376px){
+    flex-grow: 1;
+    min-height: initial;
+    float: none;
+  }
+}
+
+.section--code__visual {
+  background-color:  $red;
+}
+// toggles
+.borderimage.svg .dv-02 .divider {
+  border: 32px solid transparent;
+  border-image:url(//atelierbram.github.io/frame-patterns/assets/svg/wave_96x96_border-image.svg) 32 round round;
+}
+.borderimage.svg .dv-03 .divider {
+  border: 32px solid transparent;
+  border-image:url(//atelierbram.github.io/frame-patterns/assets/svg/trapeze_96x96_border-image.svg) 32 round round;
+}
+.borderimage.svg .dv-04 .divider {
+  border: 32px solid transparent;
+  border-image: url(//atelierbram.github.io/frame-patterns/assets/svg/asterisk_96x96_border-image.svg) 32 round round;
+}
+.borderimage.svg .dv-05 .divider {
+  border: 16px solid transparent;
+  border-image:url(//atelierbram.github.io/frame-patterns/assets/svg/diagonal-block_48x48_border-image.svg) 16 round round;
+}
+.borderimage.svg .dv-06 .divider {
+  border: 16px solid transparent;
+  border-image: url(//atelierbram.github.io/frame-patterns/assets/svg/blocks_48x48_border-image.svg) 16 round round;
+}
+.borderimage.svg .dv-07 .divider {
+  border: 50px solid transparent;
+  border-image:url(//atelierbram.github.io/frame-patterns/assets/svg/meander_152x152_border-image.svg) 50 round round;
+}
+.borderimage.svg .dv-08 .divider {
+  border: 12px solid transparent;
+  border-image:url(//atelierbram.github.io/frame-patterns/assets/svg/stamp_36x36_border-image.svg) 12 round round;
+}
+
+// .is-not-active ...
+[class*="shape--"],
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  outline: 0;
+}
+
+// .is-active ...
+.dv-01 .shape--01,
+.dv-02 .shape--02,
+.dv-03 .shape--03,
+.dv-04 .shape--04,
+.dv-05 .shape--05,
+.dv-06 .shape--06,
+.dv-07 .shape--07,
+.dv-08 .shape--08 {
+  clip: initial;
+  height: auto;
+  margin: 1.5em auto .5em;
+  padding: 1em;
+  overflow: auto;
+  position: static;
+  width: auto;
+  outline: inherit;
+}
+
+// .is-active ...
+.dv-01 .section--code__example .shape--01,
+.dv-02 .section--code__example .shape--02,
+.dv-03 .section--code__example .shape--03,
+.dv-04 .section--code__example .shape--04,
+.dv-05 .section--code__example .shape--05,
+.dv-06 .section--code__example .shape--06,
+.dv-07 .section--code__example .shape--07,
+.dv-08 .section--code__example .shape--08 {
+  font-size: 14px;
+  line-height: 1.375;
+  direction: ltr;
+  text-align: left;
+  word-spacing: normal;
+  -moz-tab-size: 4;
+  -o-tab-size: 4;
+  tab-size: 4;
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
+  white-space: pre;
+  white-space: pre-wrap;
+  word-break: break-all;
+  word-wrap: break-word;
+  background: $base07;
+  color: $base02;
+  max-width: 50em;
+  border: 1px solid adjust-color($base05,$lightness: 10%);
+}
+
+.section--code {
+  background-color: $base06;
+}
+section {
+  overflow: hidden;
+}
+.no-flexbox [class*="width-"] {
+  float: left;
+}
+// .no-flexbox .width-1v2 {
+.width-1v2 {
+  @media (min-width: 1376px){
+    width: 50%;
+  }
+}
+.disclaimer small {
+  background-color: rgba(black,.5);
+  color: #fff;
+  letter-spacing: 1px;
+  word-spacing: -1px;
+}
+
+// no borderimage, no svg = no fun.
+.no-svg body:before,
+.no-borderimage body:after {
+  position: absolute;
+  background: #333;
+  top:0;left:0;right:0;
+  padding: 1em 1em 1.5em;
+  background-color: $red-warmer;
+  color: #fff;
+  font-size: 2em;
+  z-index: 3;
+}
+.no-borderimage body:after {
+  content: "this browser doesn’t support border-images, so this demo will not make much sense is this environment";
+}
+.no-svg body:before {
+  content: "this browser doesn’t support SVG images, so this demo will not make much sense is this environment";
+}
+.no-svg.no-borderimage body:before {
+  content: "and also no SVG images: this demo wants to be seen in a modern browser!";
+  padding-top: 8em;
+  padding-bottom: 100%;
+}
+
+    </style>
+
+</head>
+
+<body>
+    
+<div id="wrapper" class="dv-01">
+
+<div id="headerWrap" class="header-wrap">
+<header id="header" class="header">
+  <h1>Frame Patterns</h1>
+  <p><span>repeating patterns as </span> <code>border-image</code></p>
+</header>
+</div>
+
+<main class="main" role="main">
+
+<section class="section section--code">
+  <div class="width-1v2 divider section--code__example">
+
+    <pre class="language-css shape--01"><code class="language-css">
+.divider {
+  border: 32px solid transparent;
+  border-image:url(../svg/zigzag_96x96_border-image.svg) 32 round round;
+  background-color: #f33;
+}</code></pre>
+
+    <pre class="language-css shape--02"><code class="language-css">
+.divider {
+  border: 32px solid transparent;
+  border-image:url(http://atelierbram.github.io/frame-patterns/svg/wave_96x96_border-image.svg) 32 round round;
+  background-color: #3c93c9;
+}</code></pre>
+
+    <pre class="language-css shape--03"><code class="language-css">
+.divider {
+  border: 32px solid transparent;
+  border-image:url(../svg/trapeze_96x96_border-image.svg) 32 round round;
+  background-color: #c9743c;
+}</code></pre>
+     <pre class="language-css shape--04"><code class="language-css">
+.divider {
+  border: 32px solid transparent;
+  border-image:url(../svg/asterisk_96x96_border-image.svg) 32 round round;
+  background-color: grey;
+}</code></pre>
+    <pre class="language-css shape--05"><code class="language-css">
+.divider {
+  border: 16px solid transparent;
+  border-image:url(../svg/diagonal-block_48x48_border-image.svg) 16 round round;
+  background-color: grey;
+}</code></pre>
+    <pre class="language-css shape--06"><code class="language-css">
+.divider {
+  border: 16px solid transparent;
+  border-image: url(../svg/blocks_48x48_border-image.svg) 16 round round;
+  background-color: grey;
+}</code></pre>
+
+     <pre class="language-css shape--07"><code class="language-css">
+.divider {
+  border: 50px solid transparent;
+  border-image:url(../svg/meander_152x152_border-image.svg) 50 round round;
+  background-color: #5d5db1;
+}</code></pre>
+    <pre class="language-css shape--08"><code class="language-css">
+.divider {
+  border: 12px solid transparent;
+  border-image:url(../svg/stamp_36x36_border-image.svg) 12 round round;
+  background-color: grey;
+}</code></pre>
+  </div>
+
+  <div class="width-1v2 divider section--code__visual">
+
+    <div class="fig"></div>
+    <div class="figcaption">
+      <pre class="shape--01">Zigzag shape
+img size:
+96px square</pre>
+      <pre class="shape--02">Wave shape
+img size:
+96px square
+      </pre>
+      <pre class="shape--03">Trapeze shape
+img size:
+96px square
+      </pre>
+       <pre class="shape--04">Asterisk shape
+img size:
+96px square
+      </pre>
+      <pre class="shape--05">Diagonal Block shape
+img size:
+48px square
+      </pre>
+      <pre class="shape--06">Block shape
+img size:
+48px square
+      </pre>
+
+      <pre class="shape--07">Meander shape
+img size:
+152px square
+      </pre>
+      <pre class="shape--08">Stamp shape
+img size:
+36px square
+      </pre>
+    </div>
+
+  </div>
+</section>
+
+<section id="about" class="section section--about">
+    <div class="disclaimer divider width-1v2"><small class="divider">This demo will only work with browsers that support <code>border-image</code>, and only reliable so if the <code>round</code> value is correctly implemented.</small>
+    </div>
+     <div class="blockquote divider width-1v2"><blockquote>“For a certain kind of temperament, there is a certain kind of satisfaction in doing something that cannot be perfect, but can still be done to the best of your ability.” <cite><b>Matthew Carter</b> talking about <b>designing within constrains</b> in: <a href="http://t.co/tTijhPoeWz">My life in typefaces</a></cite></blockquote></div>
+</section>
+
+</main>
+
+<footer class="footer footer--page"><small><a href="https://github.com/atelierbram/frame-patterns">Github</a> &middot; <a href="https://codepen.io/atelierbram/pen/vrdKB">Codepen</a></small></footer>
+</div></body>
+
+</html>

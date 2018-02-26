@@ -1,0 +1,22 @@
+/*  GRID OF TWELVE   ============================================================================= */
+
+.span_22_of_24 {
+	width: 83.06%;
+}
+
+.span_1_of_24 {
+	width: 3.43%;
+}
+
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+@media only screen and (max-width: 300px) {
+    .span_22_of_24 {
+        width: 100%;
+    }
+    .span_1_of_24 {
+        width: 100%;
+    }
+
+}

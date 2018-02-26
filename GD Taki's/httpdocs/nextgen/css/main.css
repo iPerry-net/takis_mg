@@ -1,0 +1,320 @@
+/*  FORMATTING  */
+
+    * {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1em;
+    }
+    
+    .shim {
+        margin: .5em .5em .5em .5em;
+    }
+    
+    p {
+        margin: .0625em;
+        margin-bottom: .5em;
+    }
+    
+    .innertext {
+        padding: 1em;
+    }
+
+    .tmg_div {
+        background: linear-gradient(to bottom, rgba(193, 66, 66, 0) 25%, rgb(197, 240, 240) 100%);
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .menu_div {
+        background: linear-gradient(to bottom, rgba(193, 66, 66, 0) 50%, rgb(205, 198, 235) 100%);
+    }
+    
+    .tmg_logo {
+        width: 80%;
+        vertical-align: bottom;
+    }
+
+    .tmg_logo_smaller {
+        width: 90%;
+        vertical-align: bottom;
+    }
+
+    .sidebar_heading {
+        padding: .25em;
+        color: black;
+        font: Arial, Helvetica, sans-serif;
+        font-size: 1em;
+        font-weight: bold;
+        text-align: center;
+        outline: inherit;
+        border-bottom: 1px solid black;
+        border-top: 1px solid black;
+    }
+
+    .sub-heading {
+        font-size: .75em;
+        text-align: center;
+    }
+
+    .bd_heading {
+        padding: .25em;
+        margin-top: .25em;
+        margin-bottom: .25em;
+        background: #372979;
+        color: white;
+        font: Arial, Helvetica, sans-serif;
+        font-size: .9em;
+        text-align: center;
+    }
+
+    .bd_schedule {
+        color: black;
+        font: Arial, Helvetica, sans-serif;
+        font-size: .9em;
+        text-align: center;
+        margin: 0;
+    }
+    
+    .menu_odd {
+        background: rgb(205, 198, 235);
+        padding-bottom: .125em;
+        font-size: 1em;
+    }
+    
+    .menu_even {
+        padding-bottom: .125em;
+        font-size: 1em;
+    }
+    
+    #borderImageRepetition {
+        border: 1em solid;
+        border-image: url("../images/common/fullkeyborder.svg") 100;
+        border-image-repeat: repeat;
+    }
+    
+    .bd_img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto
+    }
+
+/*  SECTIONS  */
+    
+    .section {
+        clear: both;
+        padding: 0px;
+        margin: 0px;
+    }
+
+/*  COLUMNS  */
+    .col {
+        display: block;
+        float:left;
+        margin: 1% 0 1% 1%;
+    }
+    .col:first-child { margin-left: 0; }
+
+/*  GROUPING  */
+    .group:before,
+    .group:after { content:""; display:table; }
+    .group:after { clear:both;}
+    .group { zoom:1; /* For IE 6/7 */ }
+    
+/*  GRID OF TWO  */
+    
+.span_2_of_2 {
+	width: 100%;
+}
+    
+.span_1_of_2 {
+	width: 49.5%;
+}
+
+/*  GRID OF TWO for Belly Dancers  */
+
+.span_1_of_1b {
+	width: 40%;
+}
+    
+.span_1_of_2b {
+	width: 55%;
+}
+
+/*  auto wrapped text in columns */
+
+.newspaper_2c {
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+    -webkit-column-gap: 20px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 20px; /* Firefox */
+    column-gap: 20px;
+    -webkit-column-rule: 1px solid rgb(205, 198, 235); /* Chrome, Safari, Opera */
+    -moz-column-rule: 1px solid rgb(205, 198, 235); /* Firefox */
+    column-rule: 1px solid rgb(205, 198, 235);
+    background: #eeecf8;
+}
+
+.newspaper_2n {
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+    -webkit-column-gap: 20px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 20px; /* Firefox */
+    column-gap: 20px;
+    -webkit-column-rule: 1px solid rgb(205, 198, 235); /* Chrome, Safari, Opera */
+    -moz-column-rule: 1px solid rgb(205, 198, 235); /* Firefox */
+    column-rule: 1px solid rgb(205, 198, 235);
+}
+
+.newspaper_3c {
+    -webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+    -webkit-column-gap: 20px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 20px; /* Firefox */
+    column-gap: 20px;
+    -webkit-column-rule: 1px solid rgb(205, 198, 235); /* Chrome, Safari, Opera */
+    -moz-column-rule: 1px solid rgb(205, 198, 235); /* Firefox */
+    column-rule: 1px solid rgb(205, 198, 235);
+    background: #eeecf8;
+}
+
+.newspaper_3n {
+    -webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+    -webkit-column-gap: 20px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 20px; /* Firefox */
+    column-gap: 20px;
+    -webkit-column-rule: 1px solid rgb(205, 198, 235); /* Chrome, Safari, Opera */
+    -moz-column-rule: 1px solid rgb(205, 198, 235); /* Firefox */
+    column-rule: 1px solid rgb(205, 198, 235);
+}
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+	.col { 
+		margin: 1% 0 1% 0%;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	.span_2_of_2, .span_1_of_2 { width: 100%; }
+}
+    
+/*  GRID OF THREE  */
+    .span_3_of_3 { width: 100%; }
+    .span_2_of_3 { width: 66.33%; }
+    .span_1_of_3 { width: 32.66%; }
+
+/*  GO FULL WIDTH BELOW 480 PIXELS */
+    @media only screen and (max-width: 480px) {
+    .col {  margin: 1% 0% 1% 0%; }
+    .span_3_of_3, .span_2_of_3, .span_1_of_3 { width: 100%; }
+    }
+
+/*  NAVIGATION */
+
+    .topnav {
+      overflow: hidden;
+      background-color: rgb(25, 13, 99);
+        margin: 0;
+    }
+
+    .topnav a {
+      float: left;
+      display: block;
+      color: #f2f2f2;
+      text-align: center;
+      padding: .25em .75em;
+      text-decoration: none;
+      font-size: 17px;
+    }
+
+    .topnav a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+
+    .topnav .icon {
+      display: none;
+    }
+
+    @media screen and (max-width: 600px) {
+      .topnav a:not(:first-child) {display: none;}
+      .topnav a.icon {
+        float: right;
+        display: block;
+      }
+    }
+
+    @media screen and (max-width: 600px) {
+      .topnav.responsive {position: relative;}
+
+      .topnav.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+      }
+
+      .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+      }
+    }
+
+    .fling-minislide {
+        width: 120px;
+        height: 190px;
+        overflow: hidden; 
+        position: relative; 
+    }
+
+    .fling-minislide img { 
+        position: absolute;
+        animation: fling-minislide 25s infinite; 
+        opacity: 0;
+    }
+
+    @keyframes fling-minislide {
+        25%{opacity:1;} 40%{opacity:0;}
+    } 
+    
+    .fling-minislide img:nth-child(5){animation-delay:5s;}
+    .fling-minislide img:nth-child(4){animation-delay:10s;}
+    .fling-minislide img:nth-child(3){animation-delay:15s;}
+    .fling-minislide img:nth-child(2){animation-delay:20s;}
+    .fling-minislide img:nth-child(1){animation-delay:25s;}
+
+
+/* CSS - Cascading Style Sheet */
+/* Palette color codes */
+/* Palette URL: http://paletton.com/#uid=14a0u0ko7lZeWuTk8pQsrhI-7cj */
+
+/* Feel free to copy&paste color codes to your application */
+
+/* As hex codes */
+
+.color-primary-0 { color: #382979 }	/* Main Primary color */
+.color-primary-1 { color: #7164AA }
+.color-primary-2 { color: #4E408E }
+.color-primary-3 { color: #231661 }
+.color-primary-4 { color: #120744 }
+
+
+
+/* As RGBa codes */
+
+.rgba-primary-0 { color: rgba( 56, 41,121,1) }	/* Main Primary color */
+.rgba-primary-1 { color: rgba(113,100,170,1) }
+.rgba-primary-2 { color: rgba( 78, 64,142,1) }
+.rgba-primary-3 { color: rgba( 35, 22, 97,1) }
+.rgba-primary-4 { color: rgba( 18,  7, 68,1) }
+
+
+
+/* Generated by Paletton.com Â© 2002-2014 */
+/* http://paletton.com */

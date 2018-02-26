@@ -1,0 +1,3 @@
+A Pen created at CodePen.io. You can find this one at https://codepen.io/leemark/pen/mwoHj.
+
+ This is another fairly basic slideshow, written in javascript, html, and css. This is a dual-purpose project, it’s meant (1) to be something you can drop right into your page and use if you so choose, but it’s also meant (2) as an example/tutorial showing you how to build a simple DIY slideshow from scratch on your own. See the blog post here:  http://themarklee.com/2014/10/05/better-simple-slideshow/
