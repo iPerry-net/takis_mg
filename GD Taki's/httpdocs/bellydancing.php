@@ -121,11 +121,12 @@
 				</table>
 				<table cellspacing="5" style="width: 806px">
 					<tr>
-                <td style="width: 200px" valign="top" class="style8"><table width="200" cellspacing="5" cellpadding="0" align="center" class="style13">
+                <td style="width: 200px" valign="top" class="style8">
+                    <table width="200" cellspacing="5" cellpadding="0" align="center" class="style13">
                         <tr>
                           <td colspan="2" bgcolor="#006eaa" style="height: 24px">
                             <div align="center">
-                            <font color="#ffffff" face="arial" size="3">February</font>
+                            <font color="#ffffff" face="arial" size="3">March</font>
                             <br />
                             </div>
                           </td>
@@ -150,18 +151,13 @@
                             </div>
                           </td>
                         </tr>
-                    
-                        <tr>
-                            <td colspan="2"><div align="center" class="style16"><a href="index.php">Special Pre-Valentine's Dinner</a></div></td>
-                        </tr>
-
                         <tr>
                           <td valign="top">
                             <div align="right" class="style16">17th</div>
                           </td>
                           <td valign="top">
                             <div align="left" class="style16">
-                              <font size="2" face="arial">Indigo</font>
+                              <font size="2" face="arial">Dahlia</font>
                             </div>
                           </td>
                         </tr>
@@ -171,13 +167,72 @@
                           </td>
                           <td valign="top">
                             <div align="left" class="style16">
+                              <font size="2" face="arial">Indigo</font>
+                            </div>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td valign="top">
+                            <div align="right" class="style16">31st</div>
+                          </td>
+                          <td valign="top">
+                            <div align="left" class="style16">
                               <font size="2" face="arial">Michelle</font>
                             </div>
                           </td>
                         </tr>
+                        <tr>
+                          <td colspan="2" bgcolor="#006eaa" style="height: 24px">
+                            <div align="center">
+                            <font color="#ffffff" face="arial" size="3">April</font>
+                            <br />
+                            </div>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td valign="top">
+                            <div align="right" class="style16">7th</div>
+                          </td>
+                          <td valign="top">
+                            <div align="left" class="style16">
+                              <font size="2" face="arial">Dahlia</font>
+                            </div>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td valign="top">
+                            <div align="right" class="style16">14th</div>
+                          </td>
+                          <td valign="top">
+                            <div align="left" class="style16">
+                              <font size="2" face="arial">Michelle</font>
+                            </div>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td valign="top">
+                            <div align="right" class="style16">21st</div>
+                          </td>
+                          <td valign="top">
+                            <div align="left" class="style16">
+                              <font size="2" face="arial">Dahlia</font>
+                            </div>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td valign="top">
+                            <div align="right" class="style16">28th</div>
+                          </td>
+                          <td valign="top">
+                            <div align="left" class="style16">
+                              <font size="2" face="arial">Dahlia</font>
+                            </div>
+                          </td>
+                        </tr>
+                    
                         </table>
-                        </td>
-						<td valign="top">
+                    </td>
+                    <td valign="top">
 				<table cellpadding="0" cellspacing="0" class="style6" style="width: 576px; height: 306px">
 					<!-- MSTableType="layout" -->
 					<tr>

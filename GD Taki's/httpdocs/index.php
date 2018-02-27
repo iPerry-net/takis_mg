@@ -450,31 +450,31 @@ CSAct[/*CMP*/ '807c553'] = new Array(CSOpenWindow,/*URL*/ 'mp3/mp3player.html','
                     <p class="body"><a href="livegreekmusic.asp">Join us!</a></p>
                     <p class="body">We have an inviting, family-friendly atmosphere where people of all ages are welcome from 1 to 105. Feel free to join in the Greek dancing Saturday nights with help from our dance instructors. <strong>For our live music nights (Saturday nights after 6:30pm), we recommend a reservation for parties of 4 or more.</strong></p>
                     <p class="body">Serving delicious, freshly made, healthy, authentic Greek food with family friendly prices and atmosphere!</p>
-                    <p class="body">Come by for our delicous large portioned dinners. Our appetizers and dips are freshly prepared every day along with our souvlaki meat, which is freshly cut and marinated on the premesis by Taki.</p>
                     <p class="body">We are also here for all your holiday  catering and private event needs. We will deliver your catering order!</p>
+                    <p class="body">Come by for our delicous large portioned dinners. Our appetizers and dips are freshly prepared every day along with our souvlaki meat, which is freshly cut and marinated on the premesis by Taki.</p>
                 </td>
             </tr>
         </table>
-
+<br>
         <table cellpadding="0" cellspacing="0" style="width: 750px;">
-            <tr>
+            <tr><br>
                 <td>
-                    <div align="center">
-                        Telephone: (206) 297-9200<br>
-                        Fax: (206) 297-9201<br>
+                    <div class="body" style="text-align: center;">
+                        <strong>Telephone:</strong> (206) 297-9200<br>
+                        <strong>Fax:</strong> (206) 297-9201<br>
                         8539 15th Ave NW, Seattle, WA 98117<br>
                         <a href="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=takis+mad+greek&amp;sll=47.767995,-122.348532&amp;sspn=0.013759,0.026157&amp;ie=UTF8&amp;hq=takis+mad+greek&amp;hnear=&amp;ll=47.692476,-122.376108&amp;spn=0.013779,0.026157&amp;z=16&amp;iwloc=A" target="_blank">See Map</a></div>
                 </td>
                 <td>
-                    <div align="center">
-                        Hours:<br>
+                    <div class="body" style="text-align: center;">
+                        <strong>Hours:</strong><br>
                         Monday - Friday, 11am - 9pm<br>
-                        Saturday, 11am - Midnight<b>
-                        Never on Sunday
+                        Saturday, 11am - Midnight<br>
+                        Never Open on Sunday
                     </div>
                 </td>
                 <td>
-                    <p class="style26"><a href="http://www.facebook.com/home.php#!/pages/Takis-Mad-Greek/215658891813" target="_blank"><img src="facebook.png" alt="facebook" width="150" height="45" border="0" /></a></p>
+                    <p class="body" style="text-align: center;"><a href="http://www.facebook.com/home.php#!/pages/Takis-Mad-Greek/215658891813" target="_blank"><img src="facebook.png" alt="facebook" width="150" height="45" border="0" /></a></p>
                 </td>
             </tr>
         </table>
@@ -503,32 +503,15 @@ CSAct[/*CMP*/ '807c553'] = new Array(CSOpenWindow,/*URL*/ 'mp3/mp3player.html','
 					<!-- MSTableType="layout" -->
 <tr>
 						<td style="width: 750px" valign="top">
-							<p class="body">Taki (Demetrios) Dotis is a
-							legendary musician, composer, recording artist and a
-							master of the Bouzouki.
-							After doing recordings in Athens, he played in
-							several movies and Athenian clubs, including the
-							historical HARAMA.
-							<font size="3">Taki played with famous rembetika
-							musicians and composers including Tsitsanis, Papaioanou, Zagoreos and Lafkas. He also accompanied such famous singers as Mitropanos, Florinotis (Euro-Vision, 1975), Rita Sakelario, and Haroula Lambraki. He is historically known as the first Bouzouki musician from Florina. Invited to perform for Greek - American audiences, his music led him to Hollywood, San Francisco, Dallas, Houston, Hawaii, Boston, Toronto, and then to Seattle.</font></p>
+							<p class="body">Taki (Demetrios) Dotis is a	legendary musician, composer, recording artist and a
+							master of the Bouzouki.  After doing recordings in Athens, he played in several movies and Athenian clubs, including the historical HARAMA.
+							<font size="3">Taki played with famous rembetika musicians and composers including Tsitsanis, Papaioanou, Zagoreos and Lafkas. He also accompanied such famous singers as Mitropanos, Florinotis (Euro-Vision, 1975), Rita Sakelario, and Haroula Lambraki. He is historically known as the first Bouzouki musician from Florina. Invited to perform for Greek - American audiences, his music led him to Hollywood, San Francisco, Dallas, Houston, Hawaii, Boston, Toronto, and then to Seattle.</font></p>
 							<p class="body">After many years of touring, he decided to make Seattle his permanent home and married Vickie “Kiki” Panagiotopoulos, a third generation American-Greek. They have two sons, Elias and George.</p>
-							<p class="body">This is the fifth Greek restaurant Taki
-							and Kiki have built in their 25-year partnership. Taki
-							is a distinguished chef who prepares all the food
-							with meticulous care. The menu is full of
-							traditional Athenian style food from fresh
-							ingredients of the highest quality, and combines
-							elements of northern and southern Greek cuisine. The souvlaki meats are all cut and marinated in the
-							restaurant, and even the dip appetizers and
-							spanakopita are prepared from scratch.</p>
-							<p class="body">Taki and Kiki have been serving
-							excellent Greek food in Ballard for the last 20
-							years. Before Taki’s Mad Greek they owned Taki’s
-							Pizza and Pasta (Greco-Roma Cuisine) in Ballard and downtown <st1:City><st1:place>
-							Seattle</st1:place></st1:City> where they sold Greek style pizza, souvlaki, and pasta. In 2001 they built a new Greek restaurant to retire to where their entire family can
-							be together and sold their other restaurants.</p>
-							</td>
-						</tr>
+							<p class="body">This is the fifth Greek restaurant Taki and Kiki have built in their 25-year partnership. Taki is a distinguished chef who prepares all the food with meticulous care. The menu is full oftraditional Athenian style food from fresh ingredients of the highest quality, and combines elements of northern and southern Greek cuisine. The souvlaki meats are all cut and marinated in the restaurant, and even the dip appetizers and spanakopita are prepared from scratch.</p>
+							<p class="body">Taki and Kiki have been serving excellent Greek food in Ballard for the last 20
+							years. Before Taki’s Mad Greek they owned Taki’s Pizza and Pasta (Greco-Roma Cuisine) in Ballard and downtown <st1:City><st1:place> Seattle</st1:place></st1:City> where they sold Greek style pizza, souvlaki, and pasta. In 2001 they built a new Greek restaurant to retire to where their entire family can be together and sold their other restaurants.</p>
+                        </td>
+                    </tr>
 				</table>
 
 
@@ -541,16 +524,7 @@ CSAct[/*CMP*/ '807c553'] = new Array(CSOpenWindow,/*URL*/ 'mp3/mp3player.html','
 				<table style="width: 600px" align="center" class="style23">
 					<tr>
 						<td class="style24" valign="top">
-						<p class="review">This place is wild on Saturday nights.
-						Excellent food, more than my husband and I could eat.
-						The service was friendly and fast, the music out of this
-						world. These people really make you feel like one of the
-						family; I don&#39;t know how they managed it (I&#39;m putting
-						the blame squarely on the good wine!) but they got my
-						husband and I up to dance and taught us the steps. It
-						was a real blast, I would totally recommend it to my
-						friends and am definitely going back again. You should
-						give it a try!</p>
+						<p class="review">This place is wild on Saturday nights. Excellent food, more than my husband and I could eat. The service was friendly and fast, the music out of this world. These people really make you feel like one of thefamily; I don&#39;t know how they managed it (I&#39;m putting the blame squarely on the good wine!) but they got my husband and I up to dance and taught us the steps. It was a real blast, I would totally recommend it to my friends and am definitely going back again. You should give it a try!</p>
 						<p class="sig">Samantha H.</p>
 							</td>
 					</tr>
@@ -559,18 +533,8 @@ CSAct[/*CMP*/ '807c553'] = new Array(CSOpenWindow,/*URL*/ 'mp3/mp3player.html','
 				<table style="width: 600px" align="center" class="style23">
 					<tr>
 						<td class="style24" valign="top">
-						<p class="review">Just went to Taki&#39;s tonight and it was
-						delicious. He is a freakin&#39; master on the grill. His
-						lamb is the best I&#39;ve had and being Greek, I&#39;ve had a
-						lot in my time. Him and his wife Kiki run the place and
-						are very sweet.</p>
-									<p class="review">She takes care of the
-									front of the house while he expertly handles
-									the back. Taki is also a world class
-									bouzouki player and they have Greek music
-									there on Saturday nights. It&#39;s a great
-									neighborhood joint and every time I go, I
-									decide that I need to visit it more.</p>
+                            <p class="review">Just went to Taki&#39;s tonight and it was delicious. He is a freakin&#39; master on the grill. His lamb is the best I&#39;ve had and being Greek, I&#39;ve had a lot in my time. Him and his wife Kiki run the place and are very sweet.</p>
+                                <p class="review">She takes care of thefront of the house while he expertly handles the back. Taki is also a world class bouzouki player and they have Greek music there on Saturday nights. It&#39;s a great neighborhood joint and every time I go, I decide that I need to visit it more.</p>
 						<p class="sig">Irini G.</p>
 							</td>
 					</tr>
@@ -579,16 +543,8 @@ CSAct[/*CMP*/ '807c553'] = new Array(CSOpenWindow,/*URL*/ 'mp3/mp3player.html','
 				<table style="width: 600px" align="center" class="style23">
 					<tr>
 						<td class="style24" valign="top">
-						<p class="review">I always ate here when I worked at
-						pizza hut next door a long time ago.</p>
-						<p class="review">The food is always great. The owner&#39;s
-						wife is so friendly. She always remembered me when I
-						came in frequently, and sometimes would give me a
-						complimentary baklava and talk with me. &nbsp;When I came in
-						with friends, I was always encouraged to sit down and
-						have water or coffee while we waited for our food. I
-						love the gyros and the falafel sandwich. &nbsp;Everything is
-						always fresh and full of flavor.</p>
+						<p class="review">I always ate here when I worked atpizza hut next door a long time ago.</p>
+						<p class="review">The food is always great. The owner&#39;s wife is so friendly. She always remembered me when I came in frequently, and sometimes would give me a complimentary baklava and talk with me. &nbsp;When I came in with friends, I was always encouraged to sit down and have water or coffee while we waited for our food. I love the gyros and the falafel sandwich. &nbsp;Everything is always fresh and full of flavor.</p>
 						<p class="sig">Randi S.</p>
 							</td>
 					</tr>
@@ -597,15 +553,7 @@ CSAct[/*CMP*/ '807c553'] = new Array(CSOpenWindow,/*URL*/ 'mp3/mp3player.html','
 				<table style="width: 600px" align="center" class="style23">
 					<tr>
 						<td class="style25" valign="top">
-						<p class="review">The gentleman who runs it is a famous
-						Greek musician. He is so well known that when I
-						mentioned his name to Grandparents they remembered the
-						name. If that was not enough even my friend in New
-						Orleans remembers talking him up in a bar down there.
-						Small world. Well Besides the back story the food was
-						amazing. Marinated souvlaki done to perfection I had
-						beef pork and lamb and all were perfect. The meal was so
-						fresh and succulent nothing done poorly.</p>
+						<p class="review">The gentleman who runs it is a famous Greek musician. He is so well known that when I mentioned his name to Grandparents they remembered the name. If that was not enough even my friend in New Orleans remembers talking him up in a bar down there. Small world. Well Besides the back story the food was amazing. Marinated souvlaki done to perfection I had beef pork and lamb and all were perfect. The meal was so fresh and succulent nothing done poorly.</p>
 						<p class="sig">Leeland W.</p>
 							</td>
 					</tr>
@@ -614,15 +562,25 @@ CSAct[/*CMP*/ '807c553'] = new Array(CSOpenWindow,/*URL*/ 'mp3/mp3player.html','
 						</td>
 					</tr>
 				</table>
-				<table cellpadding="0" cellspacing="0" style="width: 790px; ">
+				<table cellpadding="0" cellspacing="0" style="width: 750px;">
 					<!-- MSTableType="layout" -->
+                    <tr>
+						<td style="width: 750px" valign="top">
+							<p align="center"><img src="images/restaraunt/madgreek_4.jpg" alt="" width="345" height="214" border="1" /></p>
+							<p class="body" style="text-align: center;">Authentic Live Greek music <a href="livegreekmusic.asp">Every Saturday</a>!</p></p>
+							<p class="body" style="text-align: center;">View our <a href="bellydancing.php">schedule of Belly Dancers</a>.</p>
+                            <p class="body" style="text-align: center;"><a onclick="CSAction(new Array(/*CMP*/'807c553'));return CSClickReturn()" href="#" csclick="807c553">Listen</a> to selected songs from Takis' albums <br>Greek Moods of Seattle and A Step Back In Time.</p><p class="body" style="text-align: center;"></p>
+							<p class="body" style="text-align: center;">Have Takis' Mad Greek cater your next event!</p>
+							<p class="body" style="text-align: center;">View our new <a href="madgreekcatering_menu.pdf" target="_blank">catering menu</a>.</p>
+                        </td>
+                    </tr>
+				</table>
+
+<!--
+				<table cellpadding="0" cellspacing="0" style="width: 790px; ">
+					 MSTableType="layout" 
 					<tr>
 						<td style="height: 100%; width: 790px" valign="top">
-							<strong><br>
-												<p class="style19">
-							<img src="images/restaraunt/madgreek_4.jpg" alt="" width="345" height="214" border="1" /><br /><br>
-												Authentic Live Greek music
-							<a href="livegreekmusic.asp">Every Saturday</a>!</p>
 							<p class="style19">View our
 							<a href="bellydancing.php">schedule of Belly Dancers</a>.</p>
 							<p class="style18"><a onclick="CSAction(new Array(/*CMP*/'807c553'));return CSClickReturn()" href="#" csclick="807c553">
@@ -637,6 +595,7 @@ CSAct[/*CMP*/ '807c553'] = new Array(CSOpenWindow,/*URL*/ 'mp3/mp3player.html','
 						</td>
 					</tr>
 				</table>
+-->
 
 			</div>
 			<div>
