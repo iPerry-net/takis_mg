@@ -17,7 +17,7 @@
 	}
 	.style8 {
 	border: 1px solid #000000;
-	background-image: url('images/blueback.png');
+/*	background-image: url('images/blueback.png');*/
 }
 	.style9 {
 	font-size: large;
@@ -57,6 +57,81 @@
 	font-size: medium;
 	color: #FFFFFF;
 }
+		
+		
+    .vbody {
+        font-family: capitolium-2, serif;
+        font-style: italic;
+        font-weight: 700;
+        font-size: 1.25em;
+    }
+
+    .container {
+/*        width: 75%;*/
+/*        margin: .25em 3em 1em 3em;*/
+/*        font-style: italic;*/
+        margin: 1em;
+        font-family: capitolium-2, serif;
+        font-weight: 400;
+        font-size: 1.5em;
+    }
+
+    .vh1{
+        font-family: capitolium-2, serif;
+        font-weight: 700;
+        color: black;
+        font-size: 1.75em;
+        font-style: italic;
+    }
+
+    .vh2 {
+        padding-top: .5em;
+        color: black;
+        font-size: 1em;
+        font-family: capitolium-2, serif;
+        font-style: italic;
+        font-weight: 700;
+        font-size: 1.25em;
+    }
+
+    .vp {
+        margin-bottom: 1em;
+/*        font-family: capitolium-2, serif;*/
+/*        font-style: italic;*/
+        font-weight: 700;
+        font-size: 1.5em;
+        text-align: center;
+    }
+
+    .emphasis {
+        font-family: sans-serif;
+        font-style: bold;
+        font-size: 1.25em;
+    }
+
+    .blackbox {
+        background-color: black;
+        color: white;
+        padding: .5em;
+        margin: 1em;
+        font-weight: bold;
+    }
+
+    .bluebox {
+        background-color: #006eaa;
+        color: white;
+        padding: .5em;
+        margin: 1em;
+        font-weight: bold;
+    }
+
+    #borderImageRepetitionThick {
+        border: 1em solid;
+        border-image: url("nextgen/images/common/fullkeyborder.svg") 22;
+        border-image-repeat: repeat;
+    }
+
+	
 	</style>
 
 <script type="text/javascript" src="js/mootools.js"></script>
@@ -115,124 +190,36 @@
 						<td class="style14" valign="top"><img src="images/dancers/asp_temp/Nazaneen.jpg" width="120" height="190" alt="Nazaneen" /><br />Nazaneen</td>
 						<td class="style14" valign="top"><img src="images/dancers/asp_temp/Michelle.jpg" width="120" height="190" alt="Michelle" /><br />Michelle</td>
 						<td class="style14" valign="top"><img src="images/dancers/asp_temp/Dahlia.jpg" alt="" width="120" height="190" border="0" /><br />
-                        <font size="2"><a href="http://www.dahliadance.com/" target="_blank">Dahlia</a></font></td>
+            <font size="2"><a href="http://www.dahliadance.com/" target="_blank">Dahlia</a></font></td>
 						<td class="style14" valign="top"><img src="images/dancers/asp_temp/Indigo.jpg" alt="" width="120" height="190" border="0" /><br />Indigo</font></td>
 					</tr>
 				</table>
 				<table cellspacing="5" style="width: 806px">
 					<tr>
-                <td style="width: 200px" valign="top" class="style8">
+                <td style="width: 200px" valign="top">
                     <table width="200" cellspacing="5" cellpadding="0" align="center" class="style13">
-                        <tr>
-                          <td colspan="2" bgcolor="#006eaa" style="height: 24px">
-                            <div align="center">
-                            <font color="#ffffff" face="arial" size="3">March</font>
-                            <br />
-                            </div>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td valign="top">
-                            <div align="right" class="style16">3rd</div>
-                          </td>
-                          <td valign="top">
-                            <div align="left" class="style16">
-                              <font size="2" face="arial">Michelle</font>
-                            </div>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td valign="top">
-                            <div align="right" class="style16">10th</div>
-                          </td>
-                          <td valign="top">
-                            <div align="left" class="style16">
-                              <font size="2" face="arial">Dahlia</font>
-                            </div>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td valign="top">
-                            <div align="right" class="style16">17th</div>
-                          </td>
-                          <td valign="top">
-                            <div align="left" class="style16">
-                              <font size="2" face="arial">Dahlia</font>
-                            </div>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td valign="top">
-                            <div align="right" class="style16">24th</div>
-                          </td>
-                          <td valign="top">
-                            <div align="left" class="style16">
-                              <font size="2" face="arial">Indigo</font>
-                            </div>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td valign="top">
-                            <div align="right" class="style16">31st</div>
-                          </td>
-                          <td valign="top">
-                            <div align="left" class="style16">
-                              <font size="2" face="arial">Michelle</font>
-                            </div>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td colspan="2" bgcolor="#006eaa" style="height: 24px">
-                            <div align="center">
-                            <font color="#ffffff" face="arial" size="3">April</font>
-                            <br />
-                            </div>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td valign="top">
-                            <div align="right" class="style16">7th</div>
-                          </td>
-                          <td valign="top">
-                            <div align="left" class="style16">
-                              <font size="2" face="arial">Dahlia</font>
-                            </div>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td valign="top">
-                            <div align="right" class="style16">14th</div>
-                          </td>
-                          <td valign="top">
-                            <div align="left" class="style16">
-                              <font size="2" face="arial">Michelle</font>
-                            </div>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td valign="top">
-                            <div align="right" class="style16">21st</div>
-                          </td>
-                          <td valign="top">
-                            <div align="left" class="style16">
-                              <font size="2" face="arial">Dahlia</font>
-                            </div>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td valign="top">
-                            <div align="right" class="style16">28th</div>
-                          </td>
-                          <td valign="top">
-                            <div align="left" class="style16">
-                              <font size="2" face="arial">Dahlia</font>
-                            </div>
-                          </td>
-                        </tr>
+											<div>
+												<div style="background: rgba(255, 255, 255, 0.50); padding: 1px;">
+													<div style="text-align:center;">
+														<p class="emphasis bluebox">March</p>
+														<p class="emphasis">Michelle, March 3rd</p>
+														<p class="emphasis">Dahlia, March 10th</p>
+														<p class="emphasis">Dahlia, March 17th</p>
+														<p class="emphasis">Indigo, March 24th</p>
+														<p class="emphasis">Michelle, March 31st</p>
+														<p class="emphasis bluebox">April</p>
+														<p class="emphasis">Dahlia, April 7th</p>
+														<p class="emphasis">Michelle, April 14th</p>
+														<p class="emphasis">Dahlia, April 21st</p>
+														<p class="emphasis">Dahlia, April 28th</p>
+														<p class="emphasis bluebox"></p>
+													</div>
+												</div>
+											</div>
                     
-                        </table>
-                    </td>
-                    <td valign="top">
+										</table>
+									</td>
+									<td valign="top">
 				<table cellpadding="0" cellspacing="0" class="style6" style="width: 576px; height: 306px">
 					<!-- MSTableType="layout" -->
 					<tr>
@@ -243,24 +230,13 @@
 			  			</td>
 					</tr>
 				</table>
-						<p style="height: 20px" class="style9"><strong>Belly 
-						Dancing</strong></p>
-						<p class="style10">Live music every Saturday by the 
-						legendary Takis Dotis, on the Bouzouki and Baglama, and 
-						the Mad Greeks. </p>
-						<p align="center" class="style5"><strong>John is back 
-						from Greece to join Takis and the band for a Greek 
+						<p style="height: 20px" class="style9"><strong>Belly Dancing</strong></p>
+						<p class="style10">Live music every Saturday by the legendary Takis Dotis, on the Bouzouki and Baglama, and 
+						the Mad Greeks.</p>
+						<p align="center" class="style5"><strong>John is back from Greece to join Takis and the band for a Greek 
 						international show on Saturday nights!</strong></p>
-							<p class="style10"><span class="style5">Belly 
-							Dancing is provided by award winning dancers on a 
-							rotating schedule. Instructors are on hand if you&#39;d 
-							like to join in on the 
-							</span> <strong><span class="style5">family friendly 
-							fun</span></strong><span class="style5">. Music 
-							starts at 7:30pm and goes late.
-							</span> <strong><span class="style5">Due to high 
-							popularity, reservations are recommended for 
-							Saturday evenings.</span></strong></p>
+						<p class="style10"><span class="style5">Belly Dancing is provided by award winning dancers on a rotating schedule. Instructors are on hand if you&#39;d like to join in on the </span> <strong><span class="style5">family friendly fun</span></strong><span class="style5">. Music starts at 7:30pm and goes late.
+							</span> <strong><span class="style5">Due to high popularity, reservations are recommended for Saturday evenings.</span></strong></p>
 						  </td>
 					</tr>
 				</table>
