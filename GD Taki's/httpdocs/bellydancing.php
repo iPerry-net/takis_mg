@@ -187,7 +187,7 @@
 				<table cellspacing="5">
 					<tr>
 						<td class="style14" valign="top"><img src="images/dancers/asp_temp/Ava.jpg" width="120" height="190" alt="Ava" /><br />Ava</td>
-						<td class="style14" valign="top"><img src="images/dancers/asp_temp/Nazaneen.jpg" width="120" height="190" alt="Nazaneen" /><br />Nazaneen</td>
+<!--						<td class="style14" valign="top"><img src="images/dancers/asp_temp/Nazaneen.jpg" width="120" height="190" alt="Nazaneen" /><br />Nazaneen</td>-->
 						<td class="style14" valign="top"><img src="images/dancers/asp_temp/Michelle.jpg" width="120" height="190" alt="Michelle" /><br />Michelle</td>
 						<td class="style14" valign="top"><img src="images/dancers/asp_temp/Dahlia.jpg" alt="" width="120" height="190" border="0" /><br />
             <font size="2"><a href="http://www.dahliadance.com/" target="_blank">Dahlia</a></font></td>
@@ -201,17 +201,19 @@
 											<div>
 												<div style="background: rgba(255, 255, 255, 0.50); padding: 1px;">
 													<div style="text-align:center;">
-														<p class="emphasis bluebox">March</p>
-														<p class="emphasis">Michelle, March 3rd</p>
-														<p class="emphasis">Dahlia, March 10th</p>
-														<p class="emphasis">Dahlia, March 17th</p>
-														<p class="emphasis">Indigo, March 24th</p>
-														<p class="emphasis">Michelle, March 31st</p>
 														<p class="emphasis bluebox">April</p>
-														<p class="emphasis">Dahlia, April 7th</p>
-														<p class="emphasis">Michelle, April 14th</p>
-														<p class="emphasis">Dahlia, April 21st</p>
-														<p class="emphasis">Dahlia, April 28th</p>
+														<p class="emphasis">Dahlia, 28th</p>
+														<p class="emphasis bluebox">May</p>
+														<p class="emphasis">Dahlia, 5th</p>
+														<p class="emphasis">Michelle, 12th</p>
+														<p class="emphasis">Dahlia, 19th</p>
+														<p class="emphasis">Indigo, 26th</p>
+														<p class="emphasis bluebox">June</p>
+														<p class="emphasis">Anneki, 2nd</p>
+														<p class="emphasis">Michelle, 9th</p>
+														<p class="emphasis">Indigo, 16th</p>
+														<p class="emphasis">Dahlia, 23rd</p>
+														<p class="emphasis">Michelle, 30th</p>
 														<p class="emphasis bluebox"></p>
 													</div>
 												</div>
